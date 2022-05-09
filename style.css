@@ -15,6 +15,9 @@ header {
   font-size: 30px;
   cursor: pointer;
   color: #f00404;
+  text-shadow: -1px 1px 0 rgb(249, 248, 248),
+  2px 2px 0 #000,
+  2px -2px 0 #000;
 }
 
 input[type="button"] {
@@ -79,6 +82,8 @@ button {
 
 .fighter-card button {
   background: black;
+  font-family: 'fantasy', copperplate;
+  font-size: 15px;
   height: 20px;
   width: 90px;
 }
