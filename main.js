@@ -35,14 +35,14 @@ const createFighterCard = (fighter) => {
     const fighterCard = document.createElement('div')
     fighterCard.classList.add('fighter-card')
 
-    fighterCard.innerHTML = `<img alt='fighter cover image' src=${fighter.imageURL} class="fighter-cover-image"/>
-    <p class="name">${fighter.name}</p>
+    fighterCard.innerHTML = `<p class="name">${fighter.name}</p>
+    <img alt='fighter cover image' src=${fighter.imageURL} class="fighter-cover-image"/>
     <div class="btns-container">
         <button onclick="updateFighter(${fighter.id}, 'minus')">-</button>
         <p class="fighter-level">Level: ${fighter.level}</p>
         <button onclick="updateFighter(${fighter.id}, 'plus')">+</button>
     </div>
-    <button onclick="deleteFighter(${fighter.id})">delete</button>
+    <button onclick="deleteFighter(${fighter.id})">DELETE</button>
     `
 
 
