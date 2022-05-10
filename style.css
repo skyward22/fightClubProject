@@ -6,9 +6,11 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: url('https://c.tenor.com/ZRoxt-tO6zwAAAAC/tank-you-kung-fury.gif');
+  background-image: url('https://c.tenor.com/ZRoxt-tO6zwAAAAC/tank-you-kung-fury.gif'); 
   background-size:cover;
 }
+
+
 
 header {
   font-family: 'fantasy', copperplate;
@@ -77,7 +79,7 @@ button {
   /* border-top-left-radius: 15px; */
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  /* border-bottom-right-radius: 15px; */
+  /* border-bottom-rinodght-radius: 15px; */
 }
 
 .fighter-card button {
