@@ -37,14 +37,13 @@ const createFighterCard = (fighter) => {
 
     fighterCard.innerHTML = `<p class="name">${fighter.name}</p>
     <img alt='fighter cover image' src=${fighter.imageURL} class="fighter-cover-image"/>
-    <div class="btns-container">
+    <aside class="btns-container">
         <button onclick="updateFighter(${fighter.id}, 'minus')">-</button>
         <p class="fighter-level">Level: ${fighter.level}</p>
         <button onclick="updateFighter(${fighter.id}, 'plus')">+</button>
-    </div>
+    </aside>
     <button onclick="deleteFighter(${fighter.id})">DELETE</button>
     `
-
 
     fightersContainer.appendChild(fighterCard)
 }
